@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+<title>Drag and Drop Quiz</title>
+
+</head>
+<body>
+
+<div class="container">
+    <div id="answerPool">
+    <p class="draggable" draggable="true">html</p>
+    <p class="draggable" draggable="true">javascript</p>
+    <p class="draggable" draggable="true">php</p>
+    <p class="draggable" draggable="true">css</p>
+    <p class="draggable" draggable="true">browser</p>
+    </div>
+
+    <div id="question">
+    <label for="blank"><input id="blank" />is also called hypertext markup language.</label>
+    
+    </div>
+
+
+    <!-- Add new elements below -->
+    <button id="checkAnswer">Check Answer</button>
+    <div id="answerMessage" style="display:none;">Your answer is...</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
